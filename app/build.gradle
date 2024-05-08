@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.wizarpos.kioskmode'
-    compileSdkVersion 25
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "com.wizarpos.kioskmode"
         minSdkVersion 23
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0.0"
     }
