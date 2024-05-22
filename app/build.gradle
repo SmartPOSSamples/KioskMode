@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.wizarpos.kioskmode'
+    namespace 'com.cloudpos.kioskmode'
     compileSdkVersion 28
 
     defaultConfig {
