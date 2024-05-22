@@ -1,4 +1,4 @@
-package com.wizarpos.kioskmode;
+package com.cloudpos.kioskmode;
 
 
 public class HandleCallBack  {

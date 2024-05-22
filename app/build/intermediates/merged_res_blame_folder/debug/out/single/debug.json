@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/drawable_txt_bg_shape.xml.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/drawable/txt_bg_shape.xml"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jeff/Demos/KioskMode/app/build/intermediates/res/merged/debug/drawable_btn_selector.xml.flat",
+        "source": "/home/jeff/Demos/KioskMode/app/src/main/res/drawable/btn_selector.xml"
+    }
+]

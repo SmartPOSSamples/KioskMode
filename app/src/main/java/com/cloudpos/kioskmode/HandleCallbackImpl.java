@@ -1,4 +1,4 @@
-package com.wizarpos.kioskmode;
+package com.cloudpos.kioskmode;
 
 import android.content.Context;
 import android.os.Handler;
