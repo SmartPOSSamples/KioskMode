@@ -1,7 +1,7 @@
 package com.cloudpos.kioskmode;
 
 
-public class HandleCallBack  {
+public class HandleCallBack {
 
     public static final int SUCCESS_CODE = 1;
     public static final int ERROR_CODE = -1;

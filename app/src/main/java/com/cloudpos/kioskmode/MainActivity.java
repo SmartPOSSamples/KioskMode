@@ -11,12 +11,25 @@ import android.view.View;
 import android.widget.TextView;
 
 
-
 public class MainActivity extends Activity implements View.OnClickListener {
     private TextView message;
     private Handler handler;
     private HandleCallBack callBack;
     private TextView mStart, mStop;
+    private Handler.Callback handleCallBack = msg -> {
+        switch (msg.what) {
+            case HandleCallbackImpl.SUCCESS_CODE:
+                setTextcolor(msg.obj.toString(), Color.BLUE);
+                break;
+            case HandleCallbackImpl.ERROR_CODE:
+                setTextcolor(msg.obj.toString(), Color.RED);
+                break;
+            default:
+                setTextcolor(msg.obj.toString(), Color.BLACK);
+                break;
+        }
+        return false;
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +37,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
         initUI();
     }
-
 
     private void initUI() {
         handler = new Handler(handleCallBack);
@@ -50,21 +62,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
         }
     }
-
-    private Handler.Callback handleCallBack = msg -> {
-        switch (msg.what) {
-            case HandleCallbackImpl.SUCCESS_CODE:
-                setTextcolor(msg.obj.toString(), Color.BLUE);
-                break;
-            case HandleCallbackImpl.ERROR_CODE:
-                setTextcolor(msg.obj.toString(), Color.RED);
-                break;
-            default:
-                setTextcolor(msg.obj.toString(), Color.BLACK);
-                break;
-        }
-        return false;
-    };
 
     private void setTextcolor(String msg, int color) {
         Spannable span = Spannable.Factory.getInstance().newSpannable(msg);
