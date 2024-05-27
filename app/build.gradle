@@ -5,7 +5,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.wizarpos.kioskmode"
+        applicationId "com.cloudpos.kioskmode"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
